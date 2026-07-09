@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "RustDesk Panel",
+    "slug": "rustdesk-panel-app",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "scheme": "rustdeskpanel",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.rustdeskpanel.app"
+    },
+    "android": {
+      "package": "dev.rustdeskpanel.app"
+    }
+  }
+}

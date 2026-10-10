@@ -4,6 +4,12 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 简化版。
 
+## v0.1.1（2026-10-10）
+
+### 修复
+
+- **[fix] 官方客户端登录 type 兼容**：版本对齐发布。本仓未引用登录响应 type，无代码改动；随平台三仓统一升级至 v0.1.1。
+
 ## v0.1.0（2026-10-11）
 
 首个发布版本。RustDesk Panel 移动端（React Native 0.86 + Expo SDK 57）。

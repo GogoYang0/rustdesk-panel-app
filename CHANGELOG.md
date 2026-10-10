@@ -4,6 +4,20 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 简化版。
 
+## [0.3.0] - 2026-10-11
+
+定级说明：随平台三仓统一升 minor：v0.2.0 → v0.3.0。
+
+### 变更
+
+- 版本对齐发布。本仓未消费本批次契约扩展（策略预设端点、更新检查 changelog / downloadUrl 字段、审计 conn_id 数值化、ab 空 body 容忍等），无代码改动；`package.json` version 对齐 0.3.0。
+
+### 兼容性
+
+- 平台契约均为兼容性扩展，旧版移动端不受影响。
+- 服务端开启强制 MFA（`mfa.enforceGlobal` / 组级策略）时，官方 RustDesk 客户端与旧版移动端登录仍表现为「未完成登录」（服务端不签发 access_token）；请先使用 Web 控制台完成 TOTP 绑定后再登录。
+- v0 阶段稳定性提醒：接口仍可能随官方客户端取证结果微调，请锁定版本并关注后续 changelog。
+
 ## v0.2.0（2026-10-11）
 
 ### 变更

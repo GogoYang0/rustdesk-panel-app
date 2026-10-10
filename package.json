@@ -1,6 +1,6 @@
 {
   "name": "rustdesk-panel-app",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "main": "index.tsx",
   "description": "RustDesk Panel 移动端（React Native 0.86 + Expo SDK 57）",

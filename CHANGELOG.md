@@ -4,6 +4,16 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 简化版。
 
+## v0.2.0（2026-10-11）
+
+### 变更
+
+- 版本对齐发布。本仓未消费登录响应 `type` 与 GAP2 新端点，无代码改动；随平台三仓统一升级至 v0.2.0。
+
+### 兼容性
+
+- 服务端开启强制 MFA（`mfa.enforceGlobal` / 组级策略）后，官方 RustDesk 客户端与旧版移动端登录将表现为"未完成登录"（服务端不签发 access_token）；请先使用 Web 控制台完成 TOTP 绑定后再登录。
+
 ## v0.1.1（2026-10-10）
 
 ### 修复
